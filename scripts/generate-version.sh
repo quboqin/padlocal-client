@@ -4,8 +4,7 @@ set -e
 SRC_VERSION_TS_FILE='src/version.ts'
 
 [ -f ${SRC_VERSION_TS_FILE} ] || {
-  echo ${SRC_VERSION_TS_FILE}" not found"
-  exit 1
+  touch ${SRC_VERSION_TS_FILE}
 }
 
 VERSION=$(npx pkg-jq -r .version)
