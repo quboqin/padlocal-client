@@ -1,5 +1,5 @@
 {
-  "name": "padlocal-client-ts",
+  "name": "quboqin-padlocal-client-ts",
   "version": "0.5.3",
   "description": "Padlocal ts client",
   "keywords": [
@@ -70,5 +70,8 @@
     "ts-jest": "^26.4.4",
     "typescript": "^4.6.3",
     "xml2js": "^0.4.23"
+  },
+  "directories": {
+    "test": "tests"
   }
 }
