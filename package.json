@@ -1,6 +1,6 @@
 {
   "name": "quboqin-padlocal-client-ts",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "description": "Padlocal ts client",
   "keywords": [
     "padlocal",
